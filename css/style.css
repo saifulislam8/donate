@@ -90,3 +90,23 @@ body{
     border: 1px solid red;
     font-weight: 600;
 }
+.donate-form-box {
+    padding: 40px 0;
+}
+.donate-form-box input {
+    height: 30px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #DADADA;
+    font-family: "Montserrat";
+    margin-bottom: 20px;
+}
+
+.donate-form-box input:focus {
+    outline-width: 0;
+}
+.btn-center{
+    text-align: justify;
+}
+
