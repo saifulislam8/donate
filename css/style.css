@@ -70,13 +70,13 @@ body{
     display: flex;
 }
 .box-shadow{
-    background-color: rgb(160, 155, 234);
+    /* background-color: rgb(160, 155, 234); */
     box-shadow: 2px 2px 10px rgb(154, 186, 255);
     font-size: 20px;
     /* width: 40%; */
     margin-top: 50px;
     margin-left: 20px;
-    border-radius: 3px;
+    border-radius: 8px;
     text-align: justify;
     padding: 40px 20px;
 
@@ -127,9 +127,9 @@ body{
 
 }
 .family{
-    box-shadow: 6px 6px 30px  rgb(202, 209, 62);
-    background-attachment: red;
-    border: 2px solid green;
+    box-shadow: 6px 6px 30px  white;
+    /* background-attachment: red; */
+    /* border: 2px solid green; */
     padding: 10px;
     border-radius: 5px;
     margin-left: 15px;
@@ -144,4 +144,80 @@ body{
     margin-top:5px;
     margin-bottom: 10px;
 }
+.donate-family{
+    background-color: bisque;
+}
+.shelter{
+    background-color: cadetblue;
+}
+.education{
+    background-color: hotpink;
+}
 
+/* famous donetor */
+.famous-donetor{
+    width: 80;
+    margin: 0 auto;
+}
+.top_donetor{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.top_donetor h1 {
+  text-align: center;
+}
+.top_donetor_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+}
+.person {
+  background-color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  position: relative;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.person img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.famous{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.get-update{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.email-input{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 10px 15px;
+    height: 50%;
+    border: 1px solid white;
+    border-radius: 5px;
+    /* margin: 0 auto; */
+}
+
+.email{
+    background-color:rgba(215, 156, 186, 0.726);
+    /* width: 50%; */
+    /* margin: 0 auto; */
+    text-align: center;
+    
+}
+.subsribe-button{
+    text-decoration: none;
+    background-color:crimson;
+    padding: 9px 30px;
+    color:white;
+    border-radius: 5px;
+}
